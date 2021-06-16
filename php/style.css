@@ -1,0 +1,136 @@
+body { background: linear-gradient (to bottom right, white,#bcbdc4);
+height: 4000px ; }
+.headerx{
+position: fixed;
+width: 100%;
+height: 100px;
+top: 0;
+left: 0;
+color: white;
+z-index: 7;
+font-variant: verdana;
+-webkit-box-shadow: 0 3px 8px rgba(0 ,0 ,0 , .25);
+
+}
+.header{
+position: fixed;
+width: 100%;
+height: 100px;
+background: #142170;
+top: 0;
+left: 0;
+color: white;
+z-index: 7;
+font-family: verdana
+
+}
+#img1{
+width: 110px;
+height: 50px;
+top: 25px;
+left: 100px;
+
+}
+#form1{
+width: 180px;
+height: 60px;
+top: 20px;
+left: 700px;
+
+}
+#form2{
+width: 200px;
+height: 60px;
+top: 20px;
+left: 895px;
+
+} 
+.submit1
+{left: 60px;
+width: 50px;
+height: 22px;
+background: white;
+top: 39px;
+position:fixed; ;
+color: #142170;
+z-index: 20;
+cursor: pointer;
+
+}
+
+.bodyx{
+position: absolute;
+left: 0;
+top: 100px;
+width: 100%;
+height: 645px;
+
+}
+#intro1{
+top :40px;
+left: 100px;
+font-family: verdana;
+font-size: 50px;
+color: #142170;
+height: 75px;
+width: 550px;
+
+}
+#intro2{
+top:40px;
+left: 700px;
+font-family: verdana;
+font-size: 50px;
+color: #142170;
+height: 500px;
+width: 60px;
+	
+}
+#intro3{
+top:100px;
+left: 700px;
+font-family: verdana;
+font-size: 20px;
+color: #142170;
+height: 50px;
+width: 300px;
+	
+}
+#form3{
+top:150px;
+left: 700px;
+font-family: verdana;
+font-size: 20px;
+color: #142170;
+height: 495px;
+width: 450px;	
+}
+#namebox{
+width: 200px;
+height: 50px;
+border-radius: 10px/10px;
+background: white;
+padding: 10px;
+font-size: 20px;	
+}
+#mailbox{
+width: 400px;
+height: 50px;
+border-radius: 10px/10px;
+background: white;
+padding: 10px;
+font-size: 20px;	
+}
+.button2{
+width: 100px;
+height: 50px;
+left: 700px;
+top: 625px;
+background: green;
+position: absolute;
+color: white;
+font-size:20px;
+border-radius: 15px/15px;
+cursor: pointer;
+outline: none;	
+}
