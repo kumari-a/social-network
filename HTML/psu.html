@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>psu information</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+	<style type="text/css">
+	body{
+		background-image: url(back.jpg);
+		background-size: cover;
+		background-attachment: fixed;
+	}	
+	.content{
+		background-color: rgba(44,60,70,0.7);
+		width: 50%;
+		padding: 40px;
+		margin: 100px auto;
+		font-family: calibri;
+		border-radius: 10px;
+	}
+
+p{
+	font-size: 25px;
+	color: black;
+}
+ table,th,td{
+   	padding: 10px 20px;
+   	border: 1px solid black;
+   	border-collapse: collapse;
+   }
+
+   .main tr:nth-child(even){
+   	background-color: #9999;
+   	color:#fff;
+   }
+    .main tr:nth-child(odd){
+   	background-color: #555;
+   	color:#fff;
+   .main{
+   	box-shadow: 20px 15px 20px #000;
+   	cursor: pointer;
+   }
+
+
+	</style>
+	
+	<style type="text/css">
+	
+	
+
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+	  height:450px;
+      margin: auto;
+  }
+  </style>
+   <style type="text/css"  rel="stylesheet">
+	 #UpperNav > ul > li > ul{
+	 opacity:0.7;
+	 padding:1px;
+	 color:#030939;
+	 margin-top:0px;
+	 margin-bottom:0px;
+	 margin-left:0px;
+	 margin-right:0px;
+	 }
+	 #UpperNav > ul > li > ul > li > a,#UpperNav > ul > li > ul > li{
+	 color:#333;
+	 margin-top:0px;
+	 margin-bottom:0px;
+	 }
+	  #UpperNav > ul > li > a{
+	  background-color:#ffffff;
+	  color:#333;
+	  }
+ </style>	 
+ <style type="text/css" rel="stylesheet">
+  	#image01,#image02,#image03,#image04,#image05,#image06,#image07,#image08{
+	background-color:#ffffff;}
+	#item01,#item02,#item03,#item04,#item05{
+	background-color:#ffffff;
+	
+	}
+	body{
+	overflow-x:hidden;
+	background-image: url(bkg4.jpg);
+    background-size:cover;
+		text-align: center;
+		color: yellow; 
+	}
+	
+	
+  </style>
+</head>
+<body>
+
+  
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3></h3>
+      </div>
+    <div class="col-sm-8">
+      <nav class="nav navbar-pills" style="background-color:#ffffff";width="100px">
+      <!-- Brand and toggle get grouped for better mobile display -->
+       <div class="navbar-header">
+            <button type="btn" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#UpperNav" aria-expanded="false">
+       <!-- <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>-->
+		        <span class="glyphicon glyphicon-align-justify"></span>
+           </button>
+            <!--  <a class="navbar-brand" href="#">Brand/WebsiteName</a>//Not Required here-->
+       </div>
+	   <div class="collapse navbar-collapse" id="UpperNav">
+         <ul class="nav nav-justified">
+             <li class="dropdown" style="color:white; margin-left:0px" id="menu01">
+                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">MTECH </a>
+                 <ul class="dropdown-menu"  id="item01" >
+                  
+                     <li><a style="background-color:#164861; color:white" href="csmtech.html">CS/IT</a></li>
+		                        <li class="divider"></li>
+					 <li><a style="background-color:#164861; color:white" href="ecmtech.html">EC</a></li>
+					  <li class="divider"></li>
+					 <li><a style="background-color:#164861; color:white" href="mmtech.html">MECHANICAL</a></li>
+					  <li class="divider"></li>
+					 <li><a style="background-color:#164861; color:white" href="cmtech.html">CIVIL</a></li>
+					  <li class="divider"></li>
+					 <li><a style="background-color:#164861; color:white" href="elmtech.html">ELECTRICAL</a></li>
+					  <li class="divider"></li>
+					 <li><a style="background-color:#164861; color:white" href="#">ALL</a></li>
+					  <li class="divider"></li>
+					 
+                 
+                 </ul>
+             </li>
+		     <li class="dropdown" style="color:white"  id="menu02">
+                <a href="mba.html">MBA 
+		        </a>
+                <ul class="dropdown-menu"  id="item02">
+					
+					
+				</ul>
+             </li>
+		     <li class="dropdown" style="color:white"  id="menu03">
+				<a href="psu.html">PSU</a>
+				<ul class="dropdown-menu"  id="item03">
+					
+         
+			    </ul>
+            </li>
+			<li class="dropdown" style="color:white"  id="menu04">
+				<a href="cse.html">CSE </a>
+				<ul class="dropdown-menu"  id="item04">
+					
+               </ul>
+            </li>
+		    <li class="dropdown" style="color:white"  id="menu05">
+				<a href="sport.html">SPORTS </a>
+				<ul class="dropdown-menu" style="color:white"  id="item05">
+					
+            
+                </ul>
+            </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+	</nav>
+     </div>
+    
+	  
+	  </div>
+</div>
+	
+
+
+	<h1 align="center">**** information regarding psu ****</h1>
+<div class="content">
+	<p>The government oned corporations are termed as public sector undertakings(PSUs) in India.In a PSU majority(51% or more) of the paid
+	share capital is held by central government or by any state government or partly by central government or partly by one or more state governments.Several Public Sector Undertakings(PSU) under the ageis of Government of India regularly provide tremendous employment opportunities in various technical and management areas.</p>
+	<p>
+<b>Eligibility:</b>Most of the PSUs requires candidate to clear the GATE(Graduate Aptitude Test in Engineering)
+</p>
+<p><b>Age:</b> 22 to 40 years,depending on the organisation you are apply for</p>
+<p><b>Degree of competitiveness:</b> Very competitive</p>
+<p><b>Exam pattern</b><br>1. If GATE score is a criterian, then the candidate will have to directly go in for the personal interview or a 
+group discussion followed by the personal interview,or as specifisd by the PSU.<br>2. If GATE score is not a criterian,then the candidate will have to clear the exam conducted by respective PSU,which will be then folloed by a group discussion and personal interview.</p>
+<p><b>Is GATE compulsary to get employed in a PSU exam?</b><br>Many PSUs recruit on the basis of GATE.In fact,for most of the PSUs the gate is primary criteria that candidates have to fulfil in order to apply for the various available positions.Some of the PSUs where the GATE is mandatory are:HPCL,Power Grid,NHPC,NTPC,Mazagon Dok Ltd.,BPCL,IOCL,NLC,GAIL,NFL,Vizag Steel,CEL,NPCC and MECL.</p><P>
+	<H1>THDC recruitment gate cutoff in year 2018:</H3><br>
+	
+<table align="center" class="main">
+<tr style="background-color: rgba(0,255,0,0.8); color: #000 ;">
+	<th>Discipline</th>
+	<th>Gen</th>
+	<th>OBC</th>
+	<th>SC</th>
+	<th>ST</th>
+</tr>
+<tr>
+	<td>civil</td>
+	<td>77.53</td>
+	<td>NA</td>
+	<td>NA</td>
+	<td>NA</td>
+</tr>
+<tr>
+	<td>electrical</td>
+	<td>69.67</td>
+	<td>67</td>
+	<td>54</td>
+	<td>NA</td>
+</tr>
+<tr>
+	<td>Mechanical</td>
+	<td>80'32</td>
+	<td>NA</td>
+	<td>68.15</td>
+	<td>61.11</td>
+</tr>
+
+</table>
+
+</P>
+<p><H1>NPCIL recruitment gate cutoff in year 2018:</H3><br>
+	
+<table align="center" class="main">
+<tr style="background-color: rgba(0,255,0,0.8); color: #000 ;">
+	<th>Discipline</th>
+	<th>Gen</th>
+	<th>OBC</th>
+	<th>SC</th>
+	<th>ST</th>
+</tr>
+<tr>
+	<td>Mechanical</td>
+	<td>845</td>
+	<td>786</td>
+	<td>683</td>
+	<td>543</td>
+</tr>
+<tr>
+	<td>electrical</td>
+	<td>825</td>
+	<td>744</td>
+	<td>615</td>
+	<td>525</td>
+</tr>
+<tr>
+	<td>EC</td>
+	<td>873</td>
+	<td>785</td>
+	<td>705</td>
+	<td>562</td>
+</tr>
+<tr>
+	<td>Civil</td>
+	<td>837</td>
+	<td>772</td>
+	<td>643</td>
+	<td>564</td>
+</tr>
+
+</table>
+
+</p>
+<p>
+	<H1>CEL recruitment gate cutoff in year 2016(RANK):</H3><br>
+	
+<table align="center" class="main">
+<tr style="background-color: rgba(0,255,0,0.8); color: #000 ;">
+	<th>Discipline</th>
+	<th>Gen</th>
+	<th>OBC</th>
+	<th>SC</th>
+	<th>ST</th>
+</tr>
+<tr>
+	<td>Mechanical</td>
+	<td>61to1712</td>
+	<td>12to1989</td>
+	<td>1264to6618</td>
+	<td>4939to14105</td>
+</tr>
+<tr>
+	<td>electrical</td>
+	<td>95to921</td>
+	<td>54to1105</td>
+	<td>368to3372</td>
+	<td>1646to5680</td>
+</tr>
+</table>
+<H1>NTPC recruitment gate cutoff in year 2018:</H3><br>
+	
+<table align="center" class="main">
+<tr style="background-color: rgba(0,255,0,0.8); color: #000 ;">
+	<th>Discipline</th>
+	<th>UR</th>
+	<th>OBC</th>
+	<th>SC</th>
+	<th>ST</th>
+</tr>
+<tr>
+	<td>Mechanical</td>
+	<td>73.438</td>
+	<td>71.399</td>
+	<td>60.459</td>
+	<td>54.212</td>
+</tr>
+<tr>
+	<td>electrical</td>
+	<td>64.8695</td>
+	<td>59.5195</td>
+	<td>49.6695</td>
+	<td>45.1695</td>
+</tr>
+<tr>
+	<td>EC</td>
+	<td>52.0805</td>
+	<td>48.55</td>
+	<td>37.2805</td>
+	<td>37.45</td>
+</tr></table>
+
+</p>
+<p>
+	<H1>MDL recruitment gate cutoff in year 2017:</H3><br>
+	
+<table align="center" class="main">
+<tr style="background-color: rgba(0,255,0,0.8); color: #000 ;">
+	<th>Discipline</th>
+	<th>UR</th>
+	<th>OBC</th>
+	<th>SC</th>
+	<th>ST</th>
+</tr>
+<tr>
+	<td>Mechanical</td>
+	<td>91.09to81.38</td>
+	<td>81.37to76.93</td>
+	<td>81.03to76.92</td>
+	<td>76.93to65.95</td>
+</tr>
+<tr>
+	<td>electrical</td>
+	<td>79.63to63.65</td>
+	<td>62.25to54.12</td>
+	<td>58.33to55.09</td>
+	<td>60.06</td>
+</tr>
+</table>
+</p>
+<p>
+	<H1>BBNL recruitment gate cutoff in year 2017 AND 2018:</H3><br>
+	
+<table align="center" class="main">
+<tr style="background-color: rgba(0,255,0,0.8); color: #000 ;">
+	<th>Discipline</th>
+	<th>UR</th>
+	<th>OBC</th>
+	<th>SC</th>
+	<th>ST</th>
+	<th>year</th>
+</tr>
+<tr>
+	<td>CS/IT/EC/electrical</td>
+	<td>65.02</td>
+	<td>61.93</td>
+	<td>50.59</td>
+	<td>48.82</td>
+	<td>2017</td>
+</tr>
+<tr>
+	<td>CS/IT/EC/electrical</td>
+	<td>61.86</td>
+	<td>58.37</td>
+	<td>46.26</td>
+	<td>43.87</td>
+	<td>2016</td>
+</tr></table>
+</p>
+<p>
+<H1>BARC OCES/DGFS recruitment gate cutoff in year 2017 :</H3><br>
+	
+<table align="center" class="main">
+<tr style="background-color: rgba(0,255,0,0.8); color: #000 ;">
+	<th>Discipline</th>
+	<th>GATE cut-off marks</th>
+	
+</tr>
+<tr>
+	<td>Mechanical</td>
+	<td>824</td>
+</tr>
+<tr>
+	<td>Electrical</td>
+	<td>801</td>
+</tr>
+<tr>
+	<td>CS</td>
+	<td>790</td>
+</tr>	
+<tr>
+	<td>Civil</td>
+	<td>809</td>
+</tr></table>	
+</p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>job</title>
+	<style>
+		body{
+			font-family: Tahoma, Geneva, sans-serif;
+            color: #ffff00;
+            background:white;
+             background-size:min-width: 0px min-height: 0px ;
+			
+            }
+            
+            .job{
+            	max-width: 350px;
+            	margin: auto;
+            	border-radius:10px;
+            	background: skyblue;
+            	padding: 20px;
+            	margin-top: 50px;
+            }
+            input[type=text],
+            select{
+            	width: 100%;
+            	padding:12px 20px;
+            	margin: 8px 0;
+            	display-inline-block;
+            	border: 1px solid #ccc;
+            	border-radius: 4px;
+            	box-sizing: borderbox;
+            	 }
+            	 input[type=submit]{
+            	 	border: none;
+                    width: 100%;
+                    background: #006666;
+                    color: #fff;
+                   font-size: 16px;
+                  line-height: 25px;
+                  padding: 10px 0px;
+                  border-radius: 6px;
+                   cursor: pointer;
+                   
+
+            	 }
+            	 input[type=submit]:hover{
+            	 	 background-color: purple;
+            	  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+            	 }
+	</style>
+</head>
+<body>
+	<div class="job">
+		<h3 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Choose Your Job Prefrence</h3>
+		<form action="job_show.php" method="post">
+			<label for="Type of job">Type of job</label>
+			<select id="Type of job">
+				<option value="Type of job">Select</option>
+				<option value="All">All</option>
+				<option value="Government">Government</option>
+				<option value="Private">Private</option>
+			 </select><br><br>
+				<label for="Field">Field</label>
+			<select id="Field">
+		    <option value="Field">Select</option>
+			<option value="All">All</option>
+			<option value="Technical">Technical</option>
+			<option value="Non Technical">Non Technical</option>
+			</select><br><br>
+				<label for="Branch">Branch</label>
+			<select id="Branch">
+				<option value="Branch">Select</option> 
+				<option value="IT">IT</option>
+				<option value="Civil Engg.">Civil Engg.</option>
+				<option value="Mech. Engg.">Mech. Engg.</option>
+				<option value="Elect. Engg.">Elect. Engg.</option>
+				<option value="Elect. & Comm.">Elect. & Comm.</option>
+
+                </select><br><br>
+                <input type="Submit" value="Submit">
+            </form>
+		</div>
+ </body>
+ </html>
